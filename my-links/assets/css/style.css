@@ -1,6 +1,8 @@
 /* Style Settings */
 
-@import url('https://fonts.googleapis.com/css?family=Product%20Sans:400,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Product%20Sans:400,700&display=swap'); */
+@import url('https://fontlibrary.org//face/now');
+
 :root {
     --font: 'Prodcut Sans', 'Product Sans', sans-serif;
 }
@@ -23,27 +25,25 @@ body {
 	}
 }
 
-
 .theme-light {
     --color-main: #fff;
     --color-text: #fff;
  }
 
-
+/*Logo*/
 #Photo {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     display: block;
     margin: 8px auto 13px;
-    border-radius: 25%;
+    border-radius: 7%;
 }
 
 #Name {
     color: #fff;
-    font-size: 17px;
-    font-weight: 700;
+    font-size: 140%;
     display: block;
-    font-family: 'Product Sans';
+    font-family: 'NowMedium';
     width: 100%;
     text-align: center;
 }
@@ -75,7 +75,7 @@ body {
         background-color: rgba(255, 255, 255, 0.0 );
     color: var(--color-text);
     font-family: var(--font);
-    text-align: center;
+    text-align: left;
     margin-bottom: 8px;
     padding: 17px;
     text-decoration: none;
@@ -83,6 +83,13 @@ body {
     font-weight: bold;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
     border: solid var(--color-main) 2px;
+    border-radius: 6px;
+}
+
+.links i{
+    font-size: 190%;
+    vertical-align: auto;
+    text-align: left;
 }
 
 .links:hover {
@@ -131,7 +138,7 @@ body {
 
 #footertext {
     color: var(--color-main);
-    font-size: 12px;
+    font-size: 86%;
     font-weight: 300;
     line-height: 1.25;
     display: block;
