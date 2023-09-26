@@ -8,7 +8,14 @@
 }
 
 body {
-    background: linear-gradient(30deg, #e95950,#bc2a8d, #fccc63, #8a3ab9);
+    background: #FFFFFF;
+    background: linear-gradient(135deg, #FFFFFF, #306AC0);
+
+    /*
+    * Created with https://www.css-gradient.com
+    * Gradient link: https://www.css-gradient.com/?c1=ffffff&c2=306ac0&gt=l&gd=dtl
+    */
+    /* background: linear-gradient(30deg, #e95950,#bc2a8d, #fccc63, #8a3ab9); */
 	background-size: 450% 450%;
 	animation: gradient 10s ease infinite;
 }
@@ -18,12 +25,13 @@ body {
 		background-position: 0% 50%;
 	}
 	50% {
-		background-position: 100% 50%;
+		background-position: 80% 50%;
 	}
 	100% {
 		background-position: 0% 50%;
 	}
 }
+
 
 .theme-light {
     --color-main: #fff;
