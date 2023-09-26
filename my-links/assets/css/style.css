@@ -8,13 +8,18 @@
 }
 
 body {
-    background: #FFFFFF;
-    background: linear-gradient(135deg, #FFFFFF, #306AC0);
+    /* https://uigradients.com/#BlueRaspberry */
+    background: #fff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     /*
     * Created with https://www.css-gradient.com
     * Gradient link: https://www.css-gradient.com/?c1=ffffff&c2=306ac0&gt=l&gd=dtl
+    background: #FFFFFF;
+    background: linear-gradient(135deg, #FFFFFF, #306AC0);
     */
+
     /* background: linear-gradient(30deg, #e95950,#bc2a8d, #fccc63, #8a3ab9); */
 	background-size: 450% 450%;
 	animation: gradient 10s ease infinite;
@@ -25,7 +30,7 @@ body {
 		background-position: 0% 50%;
 	}
 	50% {
-		background-position: 80% 50%;
+		background-position: 100% 50%;
 	}
 	100% {
 		background-position: 0% 50%;
